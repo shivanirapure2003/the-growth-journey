@@ -4251,3 +4251,32 @@ html.is-animating .mil-menu-frame {
 
 
 
+spline-viewer::part(branding) {
+  display: none !important;
+}
+
+
+
+.mil-subscribe-form button.mil-icon-button-sm {
+  display: block;
+  margin-top: 300px;
+  margin-left: auto; /* aligns it right if needed */
+}
+
+
+@media screen and (max-width: 992px) {
+    .mil-footer-menu ul {
+        text-align: center;
+    }
+    .mil-footer-menu {
+        align-items: center !important;
+    }
+    
+}
+
+
+@media screen and (min-width: 992px) {
+    .footer-about-section {
+        margin-left: 40px;
+    }
+}
