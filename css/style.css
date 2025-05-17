@@ -1197,6 +1197,9 @@ frame
     font-size: 36px;
   }
 }
+.mil-social-icons li:hover i {
+    color: #ff9800 !important; /* or any hover color you want */
+}
 
 .mil-frame {
   padding: 50px 60px 60px 60px;
