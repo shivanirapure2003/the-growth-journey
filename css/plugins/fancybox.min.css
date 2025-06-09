@@ -766,7 +766,7 @@ body.compensate-for-scrollbar {
     padding: 2px 2px 4px;
     position: absolute;
     right: 0;
-    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    -webkit-tap-highlight-color: rgba(223, 22, 22, 0);
     top: 0;
     width: 212px;
     z-index: 99995

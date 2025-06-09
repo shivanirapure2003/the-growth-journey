@@ -177,7 +177,8 @@ h4 br,
 h5 br,
 .mil-h5 br,
 h6 br,
-.mil-h6 br {
+.mil-h6 br,
+.footer-about-for-you {
     display: none;
   }
 }
@@ -609,7 +610,7 @@ button
   width: 40px;
   height: 40px;
   padding: 10px;
-  background-color: rgb(0, 0, 0);
+  background-color: #010014;
   -webkit-transition: 0.4s cubic-bezier(0, 0, 0.3642, 1);
   transition: 0.4s cubic-bezier(0, 0, 0.3642, 1);
 }
@@ -811,6 +812,7 @@ backgrounds
 ------------------------------------------- */
 .mil-dark-bg {
   position: relative;
+  background: #010014;
 }
 .mil-dark-bg:before {
   content: "";
@@ -819,8 +821,8 @@ backgrounds
   position: absolute;
   pointer-events: none;
   z-index: 2;
-  -webkit-backdrop-filter: invert(100%);
-          backdrop-filter: invert(100%);
+  /* -webkit-backdrop-filter: invert(100%);
+          backdrop-filter: invert(100%); */
 }
 .mil-dark-bg .mi-invert-fix {
   height: 100%;
@@ -4282,4 +4284,20 @@ spline-viewer::part(branding) {
     .footer-about-section {
         margin-left: 40px;
     }
+}
+
+
+.mil-mt-70 {
+  margin-top: 70px;
+}
+
+@media screen and (max-width: 768px) {
+  .mil-mt-70 {
+    margin-top: -20px;
+  }
+}
+@media (max-width: 768px) {
+  .mil-subscribe-form, .footer-about-for-you {
+    width: 100%;
+  }
 }
