@@ -1,0 +1,145 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css);
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@700&display=swap'); /* fallback if Gyre Termes not available */
+
+
+ /* Your desired background color */
+
+
+.mil-dark-bg-education {
+  position: relative;
+  background:  #fafa94;
+}
+.mil-dark-bg-education:before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  pointer-events: none;
+  z-index: 2;
+  -webkit-backdrop-filter: invert(100%);
+          backdrop-filter: invert(100%);
+}
+.mil-dark-bg-education .mi-invert-fix {
+  height: 100%;
+  position: relative;
+  pointer-events: none;
+  z-index: 3;
+}
+.mil-dark-bg-education .mi-invert-fix .container {
+  pointer-events: all;
+}
+
+.mil-soft-bg {
+  background-color: rgb(242, 242, 242);
+}
+.education-hero-img {
+  display: block;
+  margin: 40px auto 24px auto;
+  width: 1100px;        /* Set a larger width */
+  max-width: 90vw;     /* Responsive: don't exceed viewport */
+  height: auto;
+}
+.mil-link.mil-dark.mil-arrow-place.mil-down-arrow {
+  filter: invert(1);
+  position: relative;
+  z-index: 3; /* Make sure it's above the invert overlay */
+    margin-top: 54px;
+  display: inline-block;
+  padding-top: 34px;
+}
+.league-gothic-heading {
+  font-family: 'League Gothic', Arial, sans-serif !important;
+  font-weight: normal;
+  letter-spacing: 1px;
+  font-size: 3rem; /* Adjust as needed */
+  line-height: 1.1;
+  text-transform: uppercase;
+}
+
+.mil-thin-education {
+  font-weight: 100;
+}
+h1,
+.mil-h1-education {
+  font-size: 36px;
+  padding-top: 100px;
+}
+.about-curve-container {
+  background-color: #f2f2eb;
+  border-radius: 0 40px 40px 0;
+  padding: 100px 24px;
+  max-width: 10000px;
+  width: 90%;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.9);
+  margin: 40px 0 40px 0;
+  margin-left: 0; /* Ensures it starts from the left edge */
+
+}
+.about-curve-container-invert {
+  background-color: #f2f2eb;
+  border-radius: 40px 0 0 40px; /* Curve on the left */
+  padding: 100px 24px;
+  max-width: 10000px;
+  width: 90%;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.9);
+  margin: 40px 0 40px auto;    /* Align to right */
+  margin-right: 0;             /* Ensures it starts from the right edge */
+}
+
+.about-curve-container-invert img {
+  display: block;
+  margin: 0 auto 32px auto; /* Center image and add bottom spacing */
+  border-radius: 20px;      /* Curve the image corners */
+  max-width: 100%;
+  height: auto; /* Maintain aspect ratio */
+  width: 900px; /* Set a larger width */
+}
+.blue-font-color {
+  color: #1a237e; /* Replace with your desired color */
+}
+
+.course-details {
+  margin-top: 150px;
+  color: #000 !important;
+}
+
+.course-details p {
+  font-size: 26px;
+  margin-bottom: 0px;
+  line-height: 1.5;
+    margin-bottom: 30px;
+}
+
+strong {
+  font-size: 26px;
+    color: #000 !important;
+}
+.about-large-heading {
+  font-size: 6rem;      /* Increase as needed, e.g., 3rem = 48px */
+  line-height: 1.1;
+}
+
+.how-its-done-highlight {
+  font-style: italic;
+  font-weight: bold;
+  color: #1a237e;
+}
+
+
+.gyre-termes-bold {
+  font-family: 'Gyre Termes', 'EB Garamond', serif;
+  font-weight: bold;
+  font-size: 1.15rem;
+}
+
+.course-details strong {
+  font-weight: 600;        /* Extra bold */
+  font-size: 1.6rem;        /* Make strong text even larger */
+  color: #000;
+}
+@media (max-width: 768px) {
+  .about-large-heading {
+    font-size: 2.2rem;  /* Responsive size for mobile */
+  }
+}
