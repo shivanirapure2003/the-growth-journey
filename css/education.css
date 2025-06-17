@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap");
 @import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css);
 @import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@700&display=swap'); /* fallback if Gyre Termes not available */
-
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;700&display=swap');
 
  /* Your desired background color */
 
@@ -28,6 +28,370 @@
 }
 .mil-dark-bg-education .mi-invert-fix .container {
   pointer-events: all;
+}
+.growth-toolkit-row {
+  display: flex;
+  align-items: flex-start;
+  gap: 40px;
+ 
+  padding: 36px 32px;
+  background: #fff;
+  margin: 40px 0;
+}
+
+.mil-lines-place {
+  flex: 0 0 80px; /* Adjust width as needed */
+  min-height: 260px; /* Adjust height as needed */
+  border-right: 1.5px solid #e0e0e0;
+  margin-right: 24px;
+}
+
+.growth-toolkit-section {
+  flex: 1;
+  background: none;
+  padding: 0;
+}
+
+.growth-toolkit-header {
+  background: #1732b5;
+  color: #fff;
+   font-size: 4rem;
+   font-family: 'Gyre Termes', 'EB Garamond', serif;
+  font-weight: 700;
+  border-radius: 18px 0 0 18px;
+  padding: 48px 72px;
+  margin-bottom: 190px;
+  
+  margin-left: auto;
+  margin-right: -10px;
+  /* ...other styles... */
+
+  width: fit-content;
+  box-shadow: 0 2px 8px rgba(23,50,181,0.07);
+    text-align: right;
+}
+
+.real-industrial-header {
+  background: #1732b5;
+  color: #fff;
+   font-size: 4rem;
+   font-family: 'Gyre Termes', 'EB Garamond', serif;
+  font-weight: 700;
+  border-radius: 0 0 58px 58px;
+  padding: 58px 72px;
+  margin-bottom: 190px;
+    line-height: 1.3;
+  margin-left: auto;
+  margin-right: auto;
+  /* ...other styles... */
+
+  width: fit-content;
+  box-shadow: 0 2px 8px rgba(23,50,181,0.07);
+    text-align: center;
+}
+.growth-toolkit-list {
+  font-family: 'Gyre Termes', serif;
+  font-weight: 200;
+  list-style: disc inside;
+  font-size: 1.8rem;
+  color: #181818;
+  line-height: 2;
+  padding-left: 0;
+  margin: 0;
+}
+
+.growth-toolkit-list strong {
+  font-weight: 700;
+  color: #000;
+}
+
+
+
+.placement-support-banner {
+  background: #1732b5;
+  color: #fff;
+  font-size: 2rem;
+  font-weight: 700;
+  border-radius: 32px;
+  padding: 18px 0;
+  text-align: center;
+  width: 80%;
+  margin: 92px auto 0 auto;
+  position: relative;
+  z-index: 2;
+  box-shadow: 0 2px 8px rgba(23,50,181,0.07);
+}
+
+.placement-support-content {
+  padding: 62px 24px 0 24px;
+  text-align: center;
+}
+
+.placement-support-title {
+  color: #1732b5;
+  font-size: 2.2rem;
+  font-weight: 700;
+  margin-bottom: 32px;
+  font-family: 'Gyre Termes', 'EB Garamond', serif;
+}
+
+.placement-support-features {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  gap: 24px;
+  flex-wrap: wrap;
+  margin-top: 10px;
+}
+.modules-grid {
+  display: flex;
+  gap: 150px;
+  justify-content: center;
+  margin: 40px 0;
+  flex-wrap: wrap;
+}
+
+.module-card {
+  background: #faf6ea;
+  border-radius: 32px;
+  padding: 32px 28px;
+  max-width: 420px;
+  min-width: 320px;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.04);
+  flex: 1 1 340px;
+}
+
+.module-title {
+  color: #1732b5;
+  font-family: 'Gyre Termes', 'EB Garamond', serif;
+  font-weight: bold;
+  font-size: 1.5rem;
+  text-align: center;
+  margin-bottom: 38px;
+}
+
+.module-title span {
+  display: block;
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #1732b5;
+}
+
+.module-list {
+  list-style: disc inside;
+  font-size: 1.25rem;
+  color: #181818;
+  line-height: 2;
+  margin: 0;
+  padding: 0;
+  font-family: 'Gyre Termes',  serif;
+  font-weight: 500;
+}
+
+
+
+.industry-experience-header {
+  background: #1732b5;
+  color: #fff;
+  font-size: 2.2rem;
+  font-family: 'Gyre Termes', 'EB Garamond', serif;
+  font-weight: 700;
+  border-radius: 32px 32px 32px 32px;
+  padding: 32px 0 24px 0;
+  margin-bottom: 32px;
+  letter-spacing: 1px;
+}
+
+
+
+.industry-logos-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
+  margin-bottom: 28px;
+  flex-wrap: wrap;
+}
+
+.industry-logo {
+  height: 44px;
+  width: auto;
+  object-fit: contain;
+  background: none;
+}
+
+
+
+.industry-experience-list {
+  list-style: disc inside;
+  font-size: 1.45rem;
+  color: #181818;
+  line-height: 2;
+  text-align: left;
+  display: inline-block;
+  margin: 50px 590px;
+  font-family: 'Gyre Termes', 'EB Garamond', serif;
+  font-weight: 600;
+  white-space: nowrap;
+}
+.ready-to-grow-card {
+  background: #1732b5;
+  border-radius: 40px;
+  color: #fff;
+  max-width: 970px;
+  margin: 48px auto 70px auto;
+  padding: 48px 24px 40px 24px;
+  text-align: center;
+  font-family: 'Gyre Termes', 'EB Garamond', serif;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.04);
+}
+
+.ready-title {
+  font-size: 8.6rem;
+  font-weight: 700;
+  margin-bottom: 36px;
+  letter-spacing: 1px;
+}
+
+.ready-subtitle {
+  font-size: 3rem;
+  font-weight: 600;
+  margin-bottom: 40px;
+  letter-spacing: 1px;
+}
+
+.ready-main {
+  font-size: 2.1rem;
+  font-weight: 700;
+  margin-bottom: 38px;
+  line-height: 1.1;
+}
+
+.ready-main-yellow {
+  color: #ffb32c;
+  font-size: 2.3rem;
+  font-weight: 700;
+  display: inline-block;
+  line-height: 1.1;
+  margin-bottom: 18px;
+}
+
+.ready-contact {
+  font-size: 1rem;
+  font-weight: 600;
+  margin-top: 32px;
+  color: #fff;
+  word-break: break-all;
+}
+.website-link {
+  cursor: pointer;
+  color: white;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center; /* centers horizontally */
+  transition: color 0.3s;
+  margin: 0 auto; /* centers as a block element */
+  width: fit-content;
+}
+
+.website-link .social-icon {
+  margin-right: 10px;
+  transition: color 0.3s;
+}
+
+.website-link:hover,
+.website-link:hover .social-icon {
+  color: #ffb32c; /* Change to your desired hover color */
+  text-decoration: none; /* Remove underline on hover */
+}
+@media (max-width: 500px) {
+  .ready-to-grow-card {
+    max-width: 98vw;
+    padding: 32px 6vw 28px 6vw;
+  }
+  .ready-main, .ready-main-yellow {
+    font-size: 1.3rem;
+  }
+}
+
+@media (max-width: 700px) {
+  .industry-experience-section {
+    max-width: 98vw;
+    padding: 18px 6vw;
+  }
+  .industry-logos-row {
+    gap: 16px;
+    flex-wrap: wrap;
+  }
+  .industry-logo {
+    height: 32px;
+  }
+}
+
+@media (max-width: 900px) {
+  .modules-grid {
+    flex-direction: column;
+    gap: 24px;
+    align-items: center;
+  }
+  .module-card {
+    max-width: 95vw;
+    min-width: unset;
+  }
+}
+
+.feature-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 160px;
+}
+
+.feature-icon {
+  width: 56px;
+  height: 56px;
+  margin-bottom: 12px;
+  object-fit: contain;
+}
+
+.feature-label {
+  color: #1732b5;
+  font-size: 1.15rem;
+  font-weight: 600;
+  margin-top: 4px;
+  font-family: 'Outfit', Arial, sans-serif;
+}
+
+@media (max-width: 900px) {
+  .placement-support-features {
+    flex-direction: column;
+    gap: 18px;
+  }
+  .feature-item {
+    width: 100%;
+  }
+  .placement-support-banner {
+    width: 95%;
+    font-size: 1.2rem;
+    padding: 12px 0;
+  }
+}
+
+@media (max-width: 900px) {
+  .growth-toolkit-row {
+    flex-direction: column;
+    gap: 24px;
+    padding: 18px 8px;
+  }
+  .mil-lines-place {
+    border-right: none;
+    border-bottom: 1.5px solid #e0e0e0;
+    margin-right: 0;
+    margin-bottom: 18px;
+    min-height: 40px;
+    min-width: 100%;
+  }
 }
 
 .mil-soft-bg {
@@ -130,7 +494,12 @@ strong {
 .gyre-termes-bold {
   font-family: 'Gyre Termes', 'EB Garamond', serif;
   font-weight: bold;
-  font-size: 1.15rem;
+  
+   font-size: 1.5rem;
+  color: #111;
+  
+  line-height: 2;
+  margin-bottom: 24px;
 }
 
 .course-details strong {
@@ -224,13 +593,124 @@ strong {
 .need-black {
   color: #000000; /* or any red shade you prefer */
 }
-.gyre-termes-bold {
-  font-size: 1.5rem;
-  color: #111;
-  font-weight: bold;
-  line-height: 2;
+.gateway-img-row {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
   margin-bottom: 24px;
 }
+
+.gateway-img {
+  border-radius: 18px;
+  width: 220px;
+  height: 140px;
+  object-fit: cover;
+  box-shadow: 0 4px 16px rgba(44,44,44,0.08);
+  border: 3px solid #fff;
+}
+
+.gateway-highlight {
+  font-family: 'Gyre Termes', 'EB Garamond', serif;
+  background: #1732b5;
+  color: #fff;
+  font-size: 1.4rem;
+  font-weight: 700;
+  text-align: center;
+  padding: 18px 0 10px 0;
+  border-radius: 12px;
+  margin-bottom: 18px;
+  letter-spacing: 1px;
+}
+
+.gateway-highlight-india {
+  display: block;
+  color: #ffe44d;
+  font-size: 1.3rem;
+  font-weight: 700;
+  margin-top: 6px;
+}
+
+.gateway-program-box {
+  background: #faf6ea;
+  border-radius: 10px;
+  padding: 18px 22px;
+  font-size: 1.1rem;
+  margin-bottom: 16px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.05);
+}
+
+.gateway-program-box strong {
+  display: block;
+  font-weight: 700;
+  font-size: 1.15rem;
+  margin-bottom: 10px;
+}
+
+.gateway-program-box ul {
+  margin: 0;
+  padding-left: 20px;
+}
+
+.gateway-program-box li {
+  margin-bottom: 6px;
+  font-weight: 600;
+  color: #1a237e;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.gateway-hr {
+  border: none;
+  border-top: 10px solid #1732b5;
+  margin: 18px 0 18px 0;
+}
+
+.gateway-learn-box {
+  background: #fff;
+  border-radius: 10px;
+  padding: 18px 22px;
+  font-size: 1.1rem;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.05);
+}
+
+.gateway-learn-box strong {
+  display: block;
+  font-weight: 700;
+  font-size: 1.15rem;
+  margin-bottom: 10px;
+}
+
+.gateway-learn-box ul {
+  margin: 0;
+  padding-left: 20px;
+}
+
+.gateway-learn-box li {
+  margin-bottom: 6px;
+  font-weight: 600;
+  color: #1732b5;
+}
+
+.earnings-stats-left .align-left {
+  display: block;
+  margin-left: -30px;
+  margin-top: 40px;
+  margin-right: auto;
+  width: 70%; /* adjust as needed */
+
+  padding: 8px;
+}
+
+.earnings-stats-right .align-right {
+  display: block;
+  margin-left: auto;
+  margin-right: -30px;
+    margin-top: 40px;
+  width: 70%; /* adjust as needed */
+
+  padding: 8px;
+}
+
 
 .stats-grid {
   display: grid;
@@ -242,9 +722,9 @@ strong {
 .stat-img {
   width: 100%;
   height: auto;
-  border-radius: 18px;
-  box-shadow: 0 4px 24px rgba(0,0,0,0.08);
-  background: #fff;
+  border-radius: 38px;
+  
+
   padding: 8px;
   object-fit: contain;
 }
