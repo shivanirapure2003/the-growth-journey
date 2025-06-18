@@ -70,6 +70,24 @@
   box-shadow: 0 2px 8px rgba(23,50,181,0.07);
     text-align: right;
 }
+.why-choose-header {
+  background: #1732b5;
+  color: #fff;
+   font-size: 4rem;
+   font-family: 'Gyre Termes', 'EB Garamond', serif;
+  font-weight: 700;
+  border-radius: 0 18px 18px 0;
+  padding: 48px 72px;
+  margin-bottom: 190px;
+  
+  margin-left: 0;
+  margin-right: -10;
+  /* ...other styles... */
+
+  width: fit-content;
+  box-shadow: 0 2px 8px rgba(23,50,181,0.07);
+    text-align: left;
+}
 
 .real-industrial-header {
   background: #1732b5;
@@ -219,7 +237,12 @@
   object-fit: contain;
   background: none;
 }
-
+.about-curve-container-invert {
+  background: url('img/education/pexels-pixabay-39604.jpg') no-repeat center center;
+  background-size: cover;
+  position: relative;
+   min-height: 400px;
+}
 
 
 .industry-experience-list {
@@ -394,8 +417,56 @@
   }
 }
 
+/* anubhav */
+.anubhav {
+   
+    aspect-ratio: 1270 / 900;
+    background: url('../img/education/anubhav dubey1.jpg') no-repeat center center;
+    background-size: contain;
+    position: relative;
+    overflow: hidden;
+    padding: 100px 24px;
+    aspect-ratio: unset;
+    max-width: none;
+    margin: 0 0 0 0;
+    width: 90%;
+
+}
+
+/* background: url('../img/education/course/A$TGJ\ \(8\).png') no-repeat center center;
+  background-size: contain;
+  border-radius: 0 40px 40px 0;
+   aspect-ratio: 1321 / 1101;
+  padding: 100px 24px;
+  width: 90%;
+  max-width: 10000px;
+  margin: 40px 0 40px auto;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.9);
+  position: relative;
+  margin-left: 0; */
+
+
 .mil-soft-bg {
   background-color: rgb(242, 242, 242);
+}
+.why-choose-us-box {
+  padding: 32px 40px;
+  margin-top: -5px;
+  margin-left: 200px;
+  margin-right: 200px;
+  font-size: 1.25rem;
+  color: #181818;
+  font-family: 'Gyre Termes', 'EB Garamond', serif;
+}
+
+.why-choose-us-box p {
+  margin-bottom: 16px;
+  line-height: 1.7;
+}
+
+.why-choose-us-box span {
+  color: #ff0000;
+  font-weight: 600;
 }
 .education-hero-img {
   display: block;
@@ -450,6 +521,63 @@ h1,
   margin: 40px 0 40px auto;    /* Align to right */
   margin-right: 0;             /* Ensures it starts from the right edge */
 }
+.about-curve-container-brutal {
+  background: url('../img/education/course/A$TGJ\ \(8\).png') no-repeat center center;
+  background-size: contain;
+  border-radius: 0 40px 40px 0;
+   aspect-ratio: 1321 / 1101;
+  padding: 100px 24px;
+  width: 90%;
+  max-width: 10000px;
+  margin: 40px 0 40px auto;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.9);
+  position: relative;
+  margin-left: 0;
+}
+.about-curve-container-invert-why {
+  background: url('../img/education/backgrounds/pexels-anna-nekrashevich-8533220.jpg') no-repeat center center;
+  background-size: contain;
+  aspect-ratio: 5401  / 3486 ;
+  width: 100%;
+  position: relative;  
+  border-radius: 40px 0 0 40px; /* Curve on the left */
+  padding: 100px 24px 0 0;
+  max-width: 10000px;
+  width: 90%;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.9);
+  margin: 40px 0 40px auto;    /* Align to right */
+  margin-right: 0;             /* Ensures it starts from the right edge */
+}
+
+.about-curve-container-invert-fear {
+  background: url('../img/education/pexels-pixabay-39604.jpg') no-repeat center center;
+  background-size: contain;
+  aspect-ratio: 617 / 476;
+  width: 100%;
+  position: relative;  
+  border-radius: 40px 0 0 40px; /* Curve on the left */
+  padding: 100px 24px;
+  max-width: 10000px;
+  width: 90%;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.9);
+  margin: 40px 0 40px auto;    /* Align to right */
+  margin-right: 0;             /* Ensures it starts from the right edge */
+}
+.about-curve-container-invert-courses {
+  background: url('../img/education/course/A$TGJ\ \(7\).png') no-repeat center center;
+  background-size: contain;
+  aspect-ratio: 1331 / 1363;
+  width: 100%;
+  position: relative;  
+  border-radius: 40px 0 0 40px; /* Curve on the left */
+  padding: 100px 24px;
+  max-width: 10000px;
+  width: 90%;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.9);
+  margin: 40px 0 40px auto;    /* Align to right */
+  margin-right: 0;             /* Ensures it starts from the right edge */
+}
+
 
 .about-curve-container-invert img {
   display: block;
@@ -710,7 +838,16 @@ strong {
 
   padding: 8px;
 }
-
+.thinking-ladki {
+  
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0;
+  margin-top: 0;
+  padding-bottom: 0;
+  box-shadow: none;
+}
 
 .stats-grid {
   display: grid;
