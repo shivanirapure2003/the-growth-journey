@@ -1081,7 +1081,7 @@ preloader
   position: absolute;
   opacity: 0;
   height: 100%;
-  background-color: rgb(3, 45, 64);
+  background-color: rgb(255, 152, 0);
 }
 .mil-preloader.mil-hidden {
   pointer-events: none;
@@ -1194,6 +1194,7 @@ frame
   font-weight: 500;
   line-height: 100%;
 }
+
 
 @media screen and (max-width: 992px) {
   .mil-logo {
