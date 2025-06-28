@@ -1530,3 +1530,9 @@ strong {
   text-align: center !important;
   margin-bottom: 20px !important;
 }
+.about-the-course-btn {
+  cursor: pointer !important;
+  margin-top: 40px !important;
+  text-align: center !important;
+  margin-bottom: 20px !important;
+}

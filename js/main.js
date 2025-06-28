@@ -142,7 +142,7 @@ $(function () {
         $(".mil-arrow").clone().appendTo(".mil-arrow-place");
         $(".mil-dodecahedron").clone().appendTo(".mil-animation");
         $(".mil-lines").clone().appendTo(".mil-lines-place");
-        $(".mil-main-menu ul li.mil-active > a").clone().appendTo(".mil-current-page");
+        // $(".mil-main-menu ul li.mil-active > a").clone().appendTo(".mil-current-page");
     });
     /***************************
 
@@ -644,7 +644,7 @@ $(function () {
             $(".mil-arrow").clone().appendTo(".mil-arrow-place");
             $(".mil-dodecahedron").clone().appendTo(".mil-animation");
             $(".mil-lines").clone().appendTo(".mil-lines-place");
-            $(".mil-main-menu ul li.mil-active > a").clone().appendTo(".mil-current-page");
+            // $(".mil-main-menu ul li.mil-active > a").clone().appendTo(".mil-current-page");
         });
         /***************************
 
@@ -1052,4 +1052,52 @@ $(function () {
 });
 
 
+
+
+  // Map page filenames to display names
+  const pageNames = {
+    "home-1.html": "home",
+    "about-us.html": "about us",
+    "services.html": "services",
+    "portfolio-3.html": "case study",
+    "education.html": "education",
+    "contact.html": "contact us"
+  };
+
+  function updateCurrentPage() {
+    const path = window.location.pathname.split("/").pop();
+    const currentPage = document.querySelector('.mil-current-page');
+    if(currentPage && pageNames[path]) {
+      currentPage.textContent = pageNames[path];
+    }
+  }
+
+  // Run on initial load
+  updateCurrentPage();
+
+  // If using Swup or AJAX navigation, update after content replacement
+  document.addEventListener('swup:contentReplaced', updateCurrentPage);
+
+
+let lastScrollY = window.scrollY;
+let navTimeout;
+const navHeader = document.querySelector('.nav-header');
+
+window.addEventListener('scroll', function() {
+  if (!navHeader) return;
+
+  // Hide on scroll down, show on scroll up
+  if (window.scrollY > lastScrollY && window.scrollY > 80) {
+    navHeader.classList.add('nav-hide');
+  } else {
+    navHeader.classList.remove('nav-hide');
+  }
+  lastScrollY = window.scrollY;
+
+  // Always show navbar after user stops scrolling for 300ms
+  clearTimeout(navTimeout);
+  navTimeout = setTimeout(() => {
+    navHeader.classList.remove('nav-hide');
+  }, 300);
+});
 
