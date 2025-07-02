@@ -1100,4 +1100,44 @@ window.addEventListener('scroll', function() {
     navHeader.classList.remove('nav-hide');
   }, 300);
 });
+function highlightActiveNav() {
+  // Get current page filename (handles index.html as well)
+  let path = window.location.pathname.split("/").pop() || "index.html";
+  document.querySelectorAll('.new-nav-links li a').forEach(function(link) {
+    link.classList.remove('active');
+    // Compare only the filename part of the href
+    let href = link.getAttribute('href').split('/').pop();
+    if (href === path) {
+      link.classList.add('active');
+    }
+  });
+}
 
+// Run on initial load
+document.addEventListener("DOMContentLoaded", highlightActiveNav);
+
+// Run after Swup/AJAX navigation
+document.addEventListener('swup:contentReplaced', highlightActiveNav);
+
+
+function highlightFooterMenu() {
+  // Get current page filename (handles index.html as well)
+  let path = window.location.pathname.split("/").pop() || "index.html";
+  document.querySelectorAll('.mil-footer-menu ul li').forEach(function(li) {
+    // Remove existing highlight classes
+    li.classList.remove('mil-active');
+    const link = li.querySelector('a');
+    if (link) {
+      // Compare only the filename part of the href
+      let href = link.getAttribute('href').split('/').pop();
+      if (href === path) {
+        li.classList.add('mil-active');
+      }
+    }
+  });
+}
+
+// Run on initial load
+document.addEventListener("DOMContentLoaded", highlightFooterMenu);
+// Run after Swup/AJAX navigation if used
+document.addEventListener('swup:contentReplaced', highlightFooterMenu);

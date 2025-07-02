@@ -732,7 +732,7 @@ textarea::placeholder {
 
 textarea {
   padding: 15px 30px;
-  height: 300px;
+  height: 150px;
 }
 
 /* -------------------------------------------
@@ -2735,7 +2735,7 @@ revievs
   }
 }
 .mil-revi-pagination .swiper-pagination-bullet .mil-custom-dot.mil-slide-1 {
-  background-image: url(../img/faces/customers/3.png);
+  background-image: url(../img/faces/customers/sayansh\ sir.jpg);
 }
 .mil-revi-pagination .swiper-pagination-bullet .mil-custom-dot.mil-slide-2 {
   background-image: url(../img/faces/customers/2.png);
@@ -4450,4 +4450,11 @@ width: 90px;
 .nav-header.nav-hide {
   transform: translateY(-100%);
   box-shadow: none;
+}
+.new-nav-links li.active > a,
+.new-nav-links li .active,
+.new-nav-links li a.active {
+  color: #ff9800 !important; /* or your highlight color */
+  font-weight: bold;
+  border-bottom: 2px solid #ff9800; /* optional underline */
 }
